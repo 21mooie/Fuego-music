@@ -18,3 +18,9 @@
   </li>
 </ul>
 
+<music-search
+    (query)="handleQuery($event)"
+    (update)="handleUpdate($event)"
+    [tracks]="filteredTracks"
+  ></music-search>
+
