@@ -7,6 +7,7 @@ import { AutoCompleteModule } from 'primeng/primeng';
 
 // Custom imports
 import { MusicSearchComponent } from './music-search/music-search.component';
+import { MusicDetailsComponent } from './music-details/music-details.component';
 // import { MusicPlayerComponent } from './music-player/music-player.component';
 // import { MusicDetailsComponent } from './music-details/music-details.component';
 // import { MusicProgressComponent } from './music-progress/music-progress.component';
@@ -24,7 +25,7 @@ import { MusicSearchComponent } from './music-search/music-search.component';
   exports: [
     // Expose components
     MusicSearchComponent,
-    // MusicDetailsComponent,
+    MusicDetailsComponent,
     // MusicPlayerComponent,
     // MusicProgressComponent,
     // MusicFooterComponent
@@ -32,7 +33,8 @@ import { MusicSearchComponent } from './music-search/music-search.component';
   declarations: [
     // Declare components
     MusicSearchComponent,
-    // MusicDetailsComponent,
+    MusicDetailsComponent,
+    MusicDetailsComponent,
     // MusicPlayerComponent,
     // MusicProgressComponent,
     // MusicFooterComponent
