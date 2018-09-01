@@ -10,6 +10,7 @@ import { MusicSearchComponent } from './music-search/music-search.component';
 import { MusicDetailsComponent } from './music-details/music-details.component';
 import { MusicPlayerComponent } from './music-player/music-player.component';
 import { MusicProgressComponent } from './music-progress/music-progress.component';
+import { MusicFooterComponent } from './music-footer/music-footer.component';
 // import { MusicFooterComponent } from './music-footer/music-footer.component';
 // import { MusicService } from './shared/music.service';
 // import { ApiService } from './shared/api.service';
@@ -37,6 +38,7 @@ import { MusicProgressComponent } from './music-progress/music-progress.componen
     MusicProgressComponent,
     // MusicPlayerComponent,
     MusicProgressComponent,
+    MusicFooterComponent,
     // MusicFooterComponent
   ],
   providers: [
