@@ -9,8 +9,7 @@ import { AutoCompleteModule } from 'primeng/primeng';
 import { MusicSearchComponent } from './music-search/music-search.component';
 import { MusicDetailsComponent } from './music-details/music-details.component';
 import { MusicPlayerComponent } from './music-player/music-player.component';
-// import { MusicDetailsComponent } from './music-details/music-details.component';
-// import { MusicProgressComponent } from './music-progress/music-progress.component';
+import { MusicProgressComponent } from './music-progress/music-progress.component';
 // import { MusicFooterComponent } from './music-footer/music-footer.component';
 // import { MusicService } from './shared/music.service';
 // import { ApiService } from './shared/api.service';
@@ -27,7 +26,7 @@ import { MusicPlayerComponent } from './music-player/music-player.component';
     MusicSearchComponent,
     MusicDetailsComponent,
     MusicPlayerComponent,
-    // MusicProgressComponent,
+    MusicProgressComponent,
     // MusicFooterComponent
   ],
   declarations: [
@@ -35,8 +34,9 @@ import { MusicPlayerComponent } from './music-player/music-player.component';
     MusicSearchComponent,
     MusicDetailsComponent,
     MusicPlayerComponent,
+    MusicProgressComponent,
     // MusicPlayerComponent,
-    // MusicProgressComponent,
+    MusicProgressComponent,
     // MusicFooterComponent
   ],
   providers: [
